@@ -23,10 +23,10 @@ if(BUILD_TESTING)
 endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/delsys_msg.msg"
-  "msg/emg_msg.msg"
-  "msg/imu_msg.msg"
-  "msg/smg_msg.msg"
+  "msg/delsys.msg"
+  "msg/emg.msg"
+  "msg/imu.msg"
+  "msg/smg.msg"
   DEPENDENCIES std_msgs
 )
 
