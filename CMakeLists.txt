@@ -9,6 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -27,7 +28,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Emg.msg"
   "msg/Imu.msg"
   "msg/Smg.msg"
-  DEPENDENCIES std_msgs
+  "msg/GameState.msg"
+  DEPENDENCIES std_msgs geometry_msgs
 )
 
 ament_package()
