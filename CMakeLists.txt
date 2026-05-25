@@ -27,6 +27,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Delsys.msg"
   "msg/Emg.msg"
   "msg/Imu.msg"
+  "msg/Orient.msg"
   "msg/Smg.msg"
   "msg/GameState.msg"
   DEPENDENCIES std_msgs geometry_msgs
