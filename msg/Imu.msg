@@ -1,5 +1,5 @@
 ImuMeta meta
-float32[3] acc
-float32[3] gyro
-float32[4] q
-float32[3] mag
+float32[3] acceleration
+float32[3] gyroscope
+float32[4] quaternion
+float32[3] magnetometer
