@@ -30,6 +30,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Orient.msg"
   "msg/Smg.msg"
   "msg/GameState.msg"
+  "msg/ImuMeta.msg"
+  "msg/ImuList.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
