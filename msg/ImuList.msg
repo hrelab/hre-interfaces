@@ -1,2 +1,2 @@
-std_msg/Header header
+std_msgs/Header header
 Imu[] imus
