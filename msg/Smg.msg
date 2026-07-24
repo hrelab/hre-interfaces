@@ -1,2 +1,2 @@
 SmgMeta metadata
-float32 smg
+float32 value
