@@ -1,0 +1,2 @@
+ChannelMeta metadata
+float32 value

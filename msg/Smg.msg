@@ -1,3 +1,2 @@
-std_msgs/Header header
-string[] sensor_name
-float64[] smg
+SmgMeta metadata
+float32 smg
