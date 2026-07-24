@@ -26,6 +26,8 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Delsys.msg"
   "msg/GameState.msg"
+  "msg/ChannelMeta.msg"
+  "msg/Channel.msg"
   "msg/ImuMeta.msg"
   "msg/Imu.msg"
   "msg/ImuList.msg"
