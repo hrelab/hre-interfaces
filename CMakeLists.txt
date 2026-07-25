@@ -32,6 +32,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ImuMeta.msg"
   "msg/Imu.msg"
   "msg/ImuList.msg"
+  "msg/QuaternionList.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
