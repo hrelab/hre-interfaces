@@ -25,14 +25,19 @@ endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Delsys.msg"
-  "msg/Emg.msg"
-  "msg/Orient.msg"
-  "msg/Smg.msg"
   "msg/GameState.msg"
+  "msg/ChannelMeta.msg"
+  "msg/Channel.msg"
   "msg/ImuMeta.msg"
   "msg/Imu.msg"
   "msg/ImuList.msg"
   "msg/QuaternionList.msg"
+  "msg/EmgMeta.msg"
+  "msg/Emg.msg"
+  "msg/EmgList.msg"
+  "msg/SmgMeta.msg"
+  "msg/Smg.msg"
+  "msg/SmgList.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
