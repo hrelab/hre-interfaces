@@ -31,6 +31,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ImuMeta.msg"
   "msg/Imu.msg"
   "msg/ImuList.msg"
+  "msg/ImuSample.msg"
   "msg/QuaternionList.msg"
   "msg/EmgMeta.msg"
   "msg/Emg.msg"
