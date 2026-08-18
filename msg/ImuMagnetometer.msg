@@ -1,0 +1,2 @@
+uint64 timestamp
+geometry_msgs/Vector3 magnetometer
